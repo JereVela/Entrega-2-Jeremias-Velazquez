@@ -1,0 +1,26 @@
+.logo {
+    text-align: center;
+}
+
+.Imagen2, .imagen3, .mosquito, .ratas, .pulgones {
+    @extend %center-align;
+}
+
+.tamano {
+    width: 700px;
+    margin: 0 auto;
+    border: 3px rgba(0, 0, 0, 0.192) solid;
+    padding: 10px;
+    @include border-radius(8px);
+}
+
+.color {
+    color: $secondary-color;
+}
+
+.elemento {
+    flex-basis: calc(28% - 1rem);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

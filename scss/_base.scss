@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $secondary-color;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    color: $primary-color;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+p, .parrafo-index {
+    text-align: center;
+}
+
+.parrafo-index {
+    font-size: $font-size-medium;
+}
+
+p {
+    font-size: $font-size-small;
+}

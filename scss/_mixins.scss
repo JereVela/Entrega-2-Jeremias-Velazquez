@@ -1,0 +1,11 @@
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+@mixin margin-top($size) {
+    margin-top: $size;
+}
+
+%center-align {
+    text-align: center;
+}
