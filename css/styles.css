@@ -40,7 +40,8 @@ li {
   text-align: center;
 }
 
-.parrafo-index, p {
+.parrafo-index,
+p {
   text-align: center;
 }
 
@@ -82,7 +83,7 @@ footer {
 }
 
 .tamano {
-  width: 50%;
+  width: 700px;
   margin: 0 auto;
   border: 3px rgba(0, 0, 0, 0.192) solid;
   padding: 10px;
@@ -149,4 +150,4 @@ footer {
   gap: 10px;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=styles.css.map */
